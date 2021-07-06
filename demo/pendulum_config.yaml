@@ -1,0 +1,35 @@
+---
+sim_params:
+  episodes: 1
+  render: true
+  steps: 200
+  verbose: false
+  warm_up: 0
+
+exp_params:
+  init_state: [3.0, 0.0]  # just to break symmetry
+  horizon: 30
+  n_particles: 3
+  action_samples: 128
+  params_samples: 8
+  alpha: 1
+  learning_rate: 2.0  # 12.5
+  bandwidth_scaling: 1.0
+  ctrl_sigma: 2
+  ctrl_dim: 1
+  prior_sigma: 2  # 10
+  weighted_prior: False
+  params_prior_loc: [[0.5, 0.5], [0.5, 1.5], [1.5, 0.5], [1.5, 1.5]]
+  params_prior_sigma: 0.1
+  likelihood: ExponentiatedUtility
+  kernel: rbf
+  mpf_n_particles: 50
+  mpf_steps: 20
+  mpf_log_space: false
+  mpf_learning_rate: 0.001
+  mpf_bandwidth: null
+  mpf_bandwidth_scaling: 1.0
+  mpf_obs_std: 0.1
+utf:
+  n: 2
+  alpha: 0.5

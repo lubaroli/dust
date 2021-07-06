@@ -1,0 +1,61 @@
+---
+sim_params:
+  warm_up: 5
+  steps: 10
+  episodes: 1
+
+exp_params:
+  horizon: 40
+  n_particles: 6
+  action_samples: 64
+  params_samples: 4
+  alpha: 1
+  learning_rate: 100
+  bandwidth_scaling: 1.0
+  ctrl_sigma: 5
+  ctrl_dim: 2
+  likelihood: ExponentiatedUtility
+  sampling: true
+  kernel: rbf
+  use_svmpc: true
+  use_mpf: true
+  prior_sigma: 5
+  weighted_prior: True
+  dyn_prior: Normal
+  dyn_prior_arg1: 2
+  dyn_prior_arg2: 0.1
+  # dyn_prior: Uniform
+  # dyn_prior_arg1: 1
+  # dyn_prior_arg2: 1
+  extra_load: 1.0
+  mpf_n_particles: 50
+  mpf_steps: 20
+  mpf_log_space: True
+  mpf_learning_rate: 0.01
+  mpf_bandwidth: 0.5
+  mpf_bandwidth_scaling: 1.0
+  mpf_obs_std: 0.1
+
+env_params:
+  dt: 0.015
+  control_type: acceleration
+  noise_std: [0.1, 0.1]
+  init_state: [-9.0, -9.0, 0, 0]
+  target_state: [9.0, 9.0, 0, 0]
+  can_crash: true
+  with_obstacle: true
+  deterministic: true
+  cost_params:
+    w_qpos: 0.5
+    w_qvel: 0.25
+    w_ctrl: 0.2
+    w_obs: 1.0e+6
+    w_qpos_T: 1.0e+3
+    w_qvel_T: 0.1
+  obst_preset: grid_4x4
+  obst_width: 2.1
+  max_speed: 5
+  max_accel: 10
+  map_cell_size: 0.1
+  map_size: [22, 22]
+  map_type: direct
