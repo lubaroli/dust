@@ -36,13 +36,13 @@ The package can be installed from source by running the following commands:
 ```shell
   $ git clone https://github.com/lubaroli/dust
   $ cd dust
-  $ sudo python setup.py install
+  $ python setup.py install
 ```
 
 ### Using pip
 Or directly from PyPi:
 ```shell
-  $ pip3 install dust
+  $ pip install dust
 ```
 
 ### Using Conda
@@ -50,8 +50,8 @@ Additionally, we offer a requirements file in case you want to create a Conda
 environment with the necessary dependencies:
 ```shell
   $ git clone https://github.com/lubaroli/dust
-  $ cd disco
-  $ conda create -f requirements.yaml
+  $ cd dust
+  $ conda create -n dust -f environment.yaml
   $ conda activate dust
   $ pip install dust
 ```
