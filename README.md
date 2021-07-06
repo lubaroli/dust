@@ -72,9 +72,6 @@ are a few worth highlighting:
     EPISODES   (required) The number of episodes executed in for each test case.
     WARM-UP    (required) The number of warm-up steps executed before the first
                           action is taken.
-    PRIOR      (optional) If using distributions over parameters of the forward
-                          model, this is the distribution used during the first
-                          epoch.
     RENDER     (optional) Controls whether the experiments should be rendered
                           by gym.
     VERBOSE    (optional) Controls whether progress messages are printed to the
