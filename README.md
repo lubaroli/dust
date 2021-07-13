@@ -82,3 +82,36 @@ Once an example file is executed, output files will be saved to the
 `./data/local/<date-time>` folder.
 
 Please refer to each module documentation for details on the other arguments.
+
+**Citing us**:
+This code is licensed under the GPL-3.0 and you are welcome to use it and or
+modify it accordingly. If you use it for future research, we ask you to cite
+our papers:
+
+[Dual Online Stein Variational Inference for Control and Dynamics](http://www.roboticsproceedings.org/rss17/p068.pdf)
+```
+@INPROCEEDINGS{Barcelos-RSS-21, 
+    AUTHOR    = {Lucas Barcelos AND Alexander Lambert AND Rafael Oliveira AND Paulo Borges AND Byron Boots AND Fabio Ramos}, 
+    TITLE     = {{Dual Online Stein Variational Inference for Control and Dynamics}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2021}, 
+    ADDRESS   = {Virtual}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2021.XVII.068} 
+} 
+```
+
+and
+
+[Stein Variational Model Predictive Control](https://corlconf.github.io/corl2020/paper_282/)
+
+```
+@INPROCEEDINGS{Lambert-CoRL-20, 
+  AUTHOR    = {Alexander Lambert AND Adam Fishman AND Dieter Fox AND Byron Boots AND Fabio Ramos},
+  TITLE     = {Stein Variational Model Predictive Control},
+  BOOKTITLE = {Proceedings of Conference on Robot Learning},
+  YEAR      = {2020},
+  ADDRESS   = {Virtual},
+  MONTH     = {November},
+  URL       = {https://corlconf.github.io/corl2020/paper_282/},
+```
