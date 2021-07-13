@@ -1,6 +1,8 @@
 Dual Online Stein Variational Inference for Control and Dynamics
 ================================================================
 
+![Inverted Pendulum Costs](https://github.com/lubaroli/dust/files/6807536/pendulum_costs_ci50.pdf) ![Inverted Pendulum Parameter Estimation](https://github.com/lubaroli/dust/files/6807538/pendulum_posterior.pdf)
+
 Welcome! This is the code repository for the **DuSt-MPC** paper, published
 at Robotics: Science and Systems (RSS) 2021.
 This code is provided as an open-source package for Python 3 offering modules
