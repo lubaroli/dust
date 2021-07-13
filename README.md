@@ -83,7 +83,9 @@ Once an example file is executed, output files will be saved to the
 
 Please refer to each module documentation for details on the other arguments.
 
-**Citing us**:
+Citing us:
+----------
+
 This code is licensed under the GPL-3.0 and you are welcome to use it and or
 modify it accordingly. If you use it for future research, we ask you to cite
 our papers:
@@ -101,9 +103,7 @@ our papers:
 } 
 ```
 
-and
-
-[Stein Variational Model Predictive Control](https://corlconf.github.io/corl2020/paper_282/)
+and [Stein Variational Model Predictive Control](https://corlconf.github.io/corl2020/paper_282/)
 
 ```
 @INPROCEEDINGS{Lambert-CoRL-20, 
