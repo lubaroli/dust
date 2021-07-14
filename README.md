@@ -24,7 +24,8 @@ typically occurring in challenging and realistic robot navigation tasks. We
 demonstrate our approach on both simulated and real-world experiments requiring
 real-time execution in the face of dynamically changing environments.
 
-**Spotlight video**:
+Spotlight video
+-----------------
 [![DuSt-MPC Spotlight video](https://img.youtube.com/vi/aUVQ04pwlvE/0.jpg)](https://www.youtube.com/watch?v=aUVQ04pwlvE)
 
 Installation
