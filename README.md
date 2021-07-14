@@ -25,9 +25,7 @@ demonstrate our approach on both simulated and real-world experiments requiring
 real-time execution in the face of dynamically changing environments.
 
 **Spotlight video**:
-<p align="center">
 [![DuSt-MPC Spotlight video](https://img.youtube.com/vi/aUVQ04pwlvE/0.jpg)](https://www.youtube.com/watch?v=aUVQ04pwlvE)
-</p>
 
 Installation
 ------------
