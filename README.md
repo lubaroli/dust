@@ -7,8 +7,6 @@ This code is provided as an open-source package for Python 3 offering modules
 and examples to quickly setup and run experiments with the framework
 presented in our paper. This package is still under development.
 
-[![DuSt-MPC Spotlight video](https://img.youtube.com/vi/aUVQ04pwlvE/0.jpg)](https://www.youtube.com/watch?v=aUVQ04pwlvE)
-
 **Abstract**:
 Model predictive control (MPC) schemes have a proven track record for delivering
 aggressive and robust performance in many challenging control tasks, coping with
@@ -26,6 +24,10 @@ typically occurring in challenging and realistic robot navigation tasks. We
 demonstrate our approach on both simulated and real-world experiments requiring
 real-time execution in the face of dynamically changing environments.
 
+**Spotlight video**:
+<p align="center">
+[![DuSt-MPC Spotlight video](https://img.youtube.com/vi/aUVQ04pwlvE/0.jpg)](https://www.youtube.com/watch?v=aUVQ04pwlvE)
+</p>
 
 Installation
 ------------
