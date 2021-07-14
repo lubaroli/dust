@@ -7,7 +7,7 @@ This code is provided as an open-source package for Python 3 offering modules
 and examples to quickly setup and run experiments with the framework
 presented in our paper. This package is still under development.
 
-[![DuSt-MPC Spotlight video](https://img.youtube.com/vi/aUVQ04pwlvE)](https://www.youtube.com/watch?v=aUVQ04pwlvE)
+[![DuSt-MPC Spotlight video](https://img.youtube.com/vi/aUVQ04pwlvE/0.jpg)](https://www.youtube.com/watch?v=aUVQ04pwlvE)
 
 **Abstract**:
 Model predictive control (MPC) schemes have a proven track record for delivering
