@@ -1,37 +1,6 @@
 - [DuSt-MPC's paper](http://www.roboticsproceedings.org/rss17/p068.pdf)
 - [DuSt-MPC's spotlight video](https://www.youtube.com/watch?v=aUVQ04pwlvE)
 
-# Table of Content
-<!--ts-->
-   <!-- * [DuSt-MPC's Introduction](#DuSt-MPCs-introduction)
-   * [Installation](#installation)
-   * [Quick Start](#quick-start)
-      * [Event Extractor](#event-extractor)
-         * [Steps](#steps)
-      * [Fidelity Evaluator and Utility Evaluator](#fidelity-evaluator-and-utility-evaluator)
-         * [Steps](#steps-1)
-   * [Fully Reproduce and Reuse](#fully-reproduce-and-reuse)
-      * [Event Extractor](#event-extractor-1)
-         * [Fully Reproduce Event Extractor](#fully-reproduce-event-extractor)
-         * [Reuse Event Extractor](#reuse-event-extractor)
-            * [Steps](#steps-2)
-      * [Fidelity Evaluator and Utility Evaluator](#fidelity-evaluator-and-utility-evaluator-1)
-         * [Fully Reproduce Fidelity Evaluator and Utility Evaluator](#fully-reproduce-fidelity-evaluator-and-utility-evaluator)
-            * [Steps](#steps-3)
-         * [Reuse Fidelity Evaluator and Utility Evaluator](#reuse-fidelity-evaluator-and-utility-evaluator)
-            * [Steps](#steps-4)
-   * [DuSt-MPC's Final Datasets](#DuSt-MPCs-final-datasets)
-      * [Header Description](#header-description)
-      * [Results](#results)
-   * [Guidance for New Techniques](#guidance-for-new-techniques)
-      * [Prerequisite](#prerequisite)
-      * [Steps](#steps-5) -->
-
-<!-- Added by: yixue, at: Wed Sep  9 16:41:38 CDT 2020 -->
-
-<!--te-->
-<!-- run ./gh-md-toc --insert index.md to generate ToC automatically -->
-
 DuSt-MPC: Introduction
 ======================
 
